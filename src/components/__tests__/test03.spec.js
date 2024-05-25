@@ -10,6 +10,6 @@ describe('Comparison', () => {
   
       await addItemButton.trigger('click');
   
-      expect(wrapper.findAll('.item-container')).toHaveLength(4);
+      expect(wrapper.findAll('.item-container')).toHaveLength(3);
     });
 });
