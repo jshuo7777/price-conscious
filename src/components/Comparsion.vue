@@ -24,7 +24,8 @@
         <button v-if="shouldShowUploadButton[index] && shopName !== null" @click="upload(index)">Upload</button>
       </div>
       <!-- Only show the "Add Item" button below the last item -->
-      <button @click="addItem">Add Item</button>
+      <!-- <button @click="addItem">Add Item</button> -->
+      <button @click="addItem" class="add-item-btn">Add Item</button>
       <div v-if="items.length >= 2">
         <h2>Comparison Result:</h2>
         <p>{{ compareItems }}</p>
