@@ -1,6 +1,6 @@
 <template>
     <div>
-      <h1>This is a Comparison page</h1>
+      <h1>This is a Comparsion page</h1>
       <div>
         <label>Shop Name:</label>
         <input type="text" v-model="shopName">
@@ -27,7 +27,7 @@
       <!-- <button @click="addItem">Add Item</button> -->
       <button @click="addItem" class="add-item-btn">Add Item</button>
       <div v-if="items.length >= 2">
-        <h2>Comparison Result:</h2>
+        <h2>Comparsion Result:</h2>
         <p>{{ compareItems }}</p>
       </div>
     </div>
